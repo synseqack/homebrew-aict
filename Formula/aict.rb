@@ -4,13 +4,13 @@
 class Aict < Formula
   desc "Unix coreutils with XML/JSON output, built for AI agents"
   homepage "https://github.com/synseqack/aict"
-  version "2.2.0"
+  version "3.0.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/synseqack/aict/releases/download/v2.2.0/aict-v2.2.0-darwin-arm64.tar.gz"
-      sha256 "1333840ffce6515eb261467d9f70bf95271eb3f10a34de7a0d8a783b2e45bdf3"
+      url "https://github.com/synseqack/aict/releases/download/v3.0.0/aict-v3.0.0-darwin-arm64.tar.gz"
+      sha256 "006c99f34c4a208cf3236c2d561826d492a4df23b2ded266b968bd398b031184"
     elsif Hardware::CPU.intel?
       url "https://github.com/synseqack/aict/releases/download/v#{version}/aict-v#{version}-darwin-amd64.tar.gz"
       sha256 "2ff0ab27af6cdee9d8b8f15e5336380cc83ba5276d36bffbb76da072e6c895ed"
